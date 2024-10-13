@@ -1,12 +1,22 @@
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
+
   <React.StrictMode>
+    <div id='Alertvalue'>
+    </div>
+    
+    <div className="w-full h-screen flex items-center justify-center bg-zinc-900">
+      <div className="chessboard w-96 h-96 bg-red-800"></div>
+    </div>
     <App />
   </React.StrictMode>
 );
